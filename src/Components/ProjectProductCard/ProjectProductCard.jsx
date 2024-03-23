@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React from 'react'
 import style from '../../sass/blocks/productCard.module.scss'
+import { Link } from 'react-router-dom'
 
 export default function ProjectProductCard() {
     const [product, setProduct] = React.useState([])
@@ -13,28 +14,30 @@ export default function ProjectProductCard() {
 
     return (
         <React.Fragment>
-            {
-                product.map(product => {
-                    return (
-                        <div key={product.id} className={style.product_card}>
-                            <img
-                                className={style.card_img}
-                                src={process.env.PUBLIC_URL
-                                    + '/ui/' +
-                                    product.image}
-                                alt="Image"
-                            />
-                            <h1 className={style.card_title}>
-                                {product.title}
-                            </h1>
-                            <p
-                                className={style.card_descriptions}>
-                                {product.descriptions}
-                            </p>
-                        </div>
-                    )
-                })
-            }
+            <Link to={`/project/:id${product.id}`}>
+                {
+                    product.map(product => {
+                        return (
+                            <div key={product.id} className={style.product_card}>
+                                <img
+                                    className={style.card_img}
+                                    src={process.env.PUBLIC_URL
+                                        + '/ui/' +
+                                        product.image}
+                                    alt="Image"
+                                />
+                                <h1 className={style.card_title}>
+                                    {product.title}
+                                </h1>
+                                <p
+                                    className={style.card_descriptions}>
+                                    {product.descriptions}
+                                </p>
+                            </div>
+                        )
+                    })
+                }
+            </Link>
         </React.Fragment>
     )
 }

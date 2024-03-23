@@ -2,13 +2,12 @@ import React from 'react'
 import NavBar from './Components/NavBar/NavBar'
 import Footer from './Components/Footer/Footer'
 import { Route, Routes } from 'react-router-dom'
-import About from './Pages/About'
 import Contacts from './Pages/Contacts'
 import Home from './Pages/Home'
 import NotFound from './Components/NotFound/NotFound'
-import Projects from './Components/Projects/Projects'
 import ScrollToTop from './utils/ScrollToTop'
 import Project from './Components/Project/Project'
+import Projects from './Pages/Projects'
 
 export default function App() {
     return (
@@ -17,7 +16,6 @@ export default function App() {
             <NavBar />
             <Routes >
                 <Route element={<Home />} path='/' />
-                <Route element={<About />} path='/about' />
                 <Route element={<Projects />} path='/projects' />
                 <Route element={<Project />} path='/project/:id' />
                 <Route element={<Contacts />} path='/contacts' />
