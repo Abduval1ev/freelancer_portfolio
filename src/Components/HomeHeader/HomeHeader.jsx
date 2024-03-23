@@ -14,7 +14,7 @@ export default function HomeHeader() {
                     <div className="header__text">
                         <p>with passion for learning and creating.</p>
                     </div>
-                    <Link href="#!" className="btn">Download CV</Link>
+                    <Link to="#!" className="btn">Download CV</Link>
                 </div>
             </header>
         </>

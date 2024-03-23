@@ -1,0 +1,14 @@
+.section {
+    .content_list {
+        .content_list__item {
+            &>*+* {
+                margin: 0.6rem 0;
+            }
+
+            p {
+                a{
+                }
+            }
+        }
+    }
+}

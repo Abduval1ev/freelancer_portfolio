@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import style from '../sass/blocks/contacts.module.scss'
 
 export default function Contacts() {
     return (
@@ -8,17 +10,21 @@ export default function Contacts() {
                     <h1 className="title-1">Contacts</h1>
 
                     <ul className="content-list">
-                        <li className="content-list__item">
+                        <li className="content_list__item">
                             <h2 className="title-2">Location</h2>
                             <p>Uzbekistan, Tashkent</p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Telegram / WhatsApp</h2>
-                            <p><a href="tel:+79051234567">+998 (90) 064-28-09</a></p>
+                            <p>
+                                <Link to="tel:+79051234567">+998 (90) 064-28-09</Link>
+                            </p>
                         </li>
-                        <li className="content-list__item">
+                        <li className="content-list--item">
                             <h2 className="title-2">Email</h2>
-                            <p><a href="mailto:webdev@protonmail.com">abduvalievabap@gmail.com</a></p>
+                            <p>
+                                <Link to="mailto:webdev@protonmail.com">abduvalievabap@gmail.com</Link>
+                            </p>
                         </li>
                     </ul>
 
