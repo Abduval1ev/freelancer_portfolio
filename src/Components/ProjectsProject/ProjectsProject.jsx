@@ -2,34 +2,31 @@ import React from 'react'
 import ProjectsCard from '../ProjectcsCard/ProjectsCard'
 
 export default function ProjectsProject() {
+
     const projects = [
         {
             "id": 1,
             "title": "Panto Mebel",
-            "image": "Снимок экрана (8).png",
+            "image": "image.png",
             "text": "lorem",
-            "descriptions": "lorem bla bla"
+            "link": "panto-mebel.vercel.app",
+            "descriptions": "Этот проект выполнен с использованием языков программирования Html5, Scss, JavaScript."
         },
         {
             "id": 2,
             "title": "SquareUp",
-            "image": "image.png",
+            "image": "image copy.png",
             "text": "lorem",
-            "descriptions": "lorem bla bla"
+            "link": "",
+            "descriptions": "Этот проект выполнен с использованием языков программирования Html5, Scss, JavaScript."
         },
         {
             "id": 3,
             "title": "Mr.Beat",
-            "image": "image copy.png",
+            "image": "image copy 2.png",
             "text": "lorem",
-            "descriptions": "lorem bla bla"
-        },
-        {
-            "id": 4,
-            "title": "Mr.Beat",
-            "image": "image copy.png",
-            "text": "lorem",
-            "descriptions": "lorem bla bla"
+            "link": "mr-beat-gamma.vercel.app",
+            "descriptions": "Этот проект выполнен с использованием языков программирования и библиотек Html5, Swiper, ReactJs, JavaScript."
         }
     ]
 
