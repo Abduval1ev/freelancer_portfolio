@@ -1,12 +1,12 @@
 import React from 'react'
 import HomeHeader from '../Components/HomeHeader/HomeHeader'
-import HomeSection from '../Components/HomeSection/HomeSection'
+import HomeMain from '../Components/HomeMain/HomeMain'
 
 export default function Home() {
     return (
         <>
             <HomeHeader />
-            <HomeSection />
+            <HomeMain />
         </>
     )
 }

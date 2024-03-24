@@ -4,12 +4,9 @@ import { useParams } from 'react-router-dom'
 export default function Project() {
     const { id } = useParams()
 
-    
-
     return (
         <>
-            SALOM 2
-            <p>{id}</p>
+            <h1>{id}</h1>
         </>
     )
 }

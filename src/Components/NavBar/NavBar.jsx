@@ -1,35 +1,25 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import style from '../../sass/blocks/nav.module.module.scss'
-import DarkMode from '../DarkMode/DarkMode'
-
+import sun from '../../img/icons/sun.svg'
+import { Link } from "react-router-dom"
+import moon from '../../img/icons/moon.svg'
 
 export default function NavBar() {
-
     return (
         <>
-            <nav className={style.nav}>
-                <div className={style.container}>
-                    <div className={style.nav_row}>
-                        <NavLink to="/" className={style.logo}><strong>Freelancer</strong> portfolio</NavLink>
+            <nav className="nav">
+                <div className="container">
+                    <div className="nav-row">
+                        <Link to="/" className="logo"><strong>Freelancer</strong> portfolio</Link>
 
-                        {/* <DarkMode /> */}
+                        <button className="dark-mode-btn">
+                            <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+                            <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
+                        </button>
 
-                        <ul className={style.nav_list}>
-                            <li className={style.nav_list__item}>
-                                <NavLink to="/"
-                                    className={style.nav_list_link}>Home</NavLink>
-                            </li>
-                            <li
-                                className={style.nav_list__item}>
-                                <NavLink to="/projects"
-                                    className={style.nav_list_link}>Projects</NavLink>
-                            </li>
-                            <li
-                                className={style.nav_list__item}>
-                                <NavLink to="/contacts"
-                                    className={style.nav_list_link}>Contacts</NavLink>
-                            </li>
+                        <ul className="nav-list">
+                            <li className="nav-list__item"><Link to="/" className="nav-list__link nav-list__ink--active">Home</Link></li>
+                            <li className="nav-list__item"><Link to="/projects" className="nav-list__link">Projects</Link></li>
+                            <li className="nav-list__item"><Link to="/contacts" className="nav-list__link">Contacts</Link></li>
                         </ul>
                     </div>
                 </div>

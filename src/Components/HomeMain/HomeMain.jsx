@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HomeSection() {
+export default function HomeMain() {
     return (
         <>
             <main className="section">
@@ -8,8 +8,7 @@ export default function HomeSection() {
                     <ul className="content-list">
                         <li className="content-list__item">
                             <h2 className="title-2">Frontend</h2>
-                            <p>JavaScript, ReactJS, Redux, HTML, CSS, NPM, BootStrap,
-                                TailwindCSS</p>
+                            <p>JavaScript, ReactJS, Redux, HTML5, CSS3, SCSS, GITHUB, NPM, BootStrap, Yarn, TailwindCSS,</p>
                         </li>
                     </ul>
                 </div>
