@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import style from '../sass/blocks/contacts.module.scss'
 
 export default function Contacts() {
     return (

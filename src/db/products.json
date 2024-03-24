@@ -1,25 +1,30 @@
-{
-    "products": [
-        {
-            "id": 1,
-            "title": "Panto Mebel",
-            "image": "Снимок экрана (8).png",
-            "text": "lorem",
-            "descriptions": "lorem bla bla"
-        },
-        {
-            "id": 2,
-            "title": "SquareUp",
-            "image": "image.png",
-            "text": "lorem",
-            "descriptions": "lorem bla bla"
-        },
-        {
-            "id": 3,
-            "title": "Mr.Beat",
-            "image": "image copy.png",
-            "text": "lorem",
-            "descriptions": "lorem bla bla"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "title": "Panto Mebel",
+        "image": "Снимок экрана (8).png",
+        "text": "lorem",
+        "descriptions": "lorem bla bla"
+    },
+    {
+        "id": 2,
+        "title": "SquareUp",
+        "image": "image.png",
+        "text": "lorem",
+        "descriptions": "lorem bla bla"
+    },
+    {
+        "id": 3,
+        "title": "Mr.Beat",
+        "image": "image copy.png",
+        "text": "lorem",
+        "descriptions": "lorem bla bla"
+    },
+    {
+        "id": 4,
+        "title": "Mr.Beat",
+        "image": "image copy.png",
+        "text": "lorem",
+        "descriptions": "lorem bla bla"
+    }
+]
