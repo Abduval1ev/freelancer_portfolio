@@ -9,7 +9,7 @@ export default function ProjectsProject() {
             "title": "Panto Mebel",
             "image": "image.png",
             "text": "lorem",
-            "link": "panto-mebel.vercel.app",
+            "link": "https://panto-mebel.vercel.app/",
             "descriptions": "Этот проект выполнен с использованием языков программирования Html5, Scss, JavaScript."
         },
         {
@@ -25,7 +25,7 @@ export default function ProjectsProject() {
             "title": "Mr.Beat",
             "image": "image copy 2.png",
             "text": "lorem",
-            "link": "mr-beat-gamma.vercel.app",
+            "link": "https://mr-beat-gamma.vercel.app/",
             "descriptions": "Этот проект выполнен с использованием языков программирования и библиотек Html5, Swiper, ReactJs, JavaScript."
         }
     ]

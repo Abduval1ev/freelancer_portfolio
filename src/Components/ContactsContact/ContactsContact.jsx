@@ -11,12 +11,12 @@ export default function Contacts() {
                     <ul className="content-list">
                         <li className="content_list__item">
                             <h2 className="title-2">Location</h2>
-                            <p>Uzbekistan, Tashkent</p>
+                            <p className='content_list'>Uzbekistan, Tashkent</p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Telegram / WhatsApp</h2>
                             <p>
-                                <Link to="tel:+79051234567">+998 (90) 064-28-09</Link>
+                                <Link to="tel:+998900642809">+998 (90) 064-28-09</Link>
                             </p>
                         </li>
                         <li className="content-list--item">
