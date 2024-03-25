@@ -67,6 +67,20 @@ body {
 	min-height: 100vh;
 }
 
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: #5c62ec;
+
+}
+
 /* General */
 
 .container {
