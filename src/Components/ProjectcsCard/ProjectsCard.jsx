@@ -12,9 +12,8 @@ export default function ProjectsCard(item) {
                         item.image}
                     alt="Image"
                 />
-                <Link to={item.link}>
+                <Link to={`${item.link}`}>
                     <h2 className="project__title">{item.title}</h2>
-                    <p className='project_desc'>{item.descriptions}</p>
                 </Link>
             </article>
         </>

@@ -6,7 +6,6 @@ import Home from "./Pages/Home"
 import NotFound from "./Components/NotFound/NotFound"
 import Contacts from "./Pages/Contacts"
 import Projects from "./Pages/Projects"
-import Project from "./Components/Project/Project"
 import ScrollToTop from "./utils/ScrollToTop"
 
 

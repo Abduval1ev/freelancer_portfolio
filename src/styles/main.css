@@ -360,11 +360,6 @@ body {
 	color: var(--project-card-text);
 }
 
-.project_desc {
-	font-size: clamp(12px, -0.107rem + 1.79vw, 24px);
-	padding: 10px 15px;
-
-}
 
 .no_projects {
 	font-size: clamp(12px, 3vw, 24px);
@@ -412,6 +407,10 @@ body {
 	align-items: center;
 	row-gap: 40px;
 	text-align: center;
+}
+
+.content_list {
+	color: var(--accent);
 }
 
 .content-list a {
